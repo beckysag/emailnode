@@ -1,0 +1,35 @@
+app.js
+
+This is the logical starting point for your app.
+
+node_modules/
+
+This is the dir where all your npm packages will reside.
+
+public/
+
+Directory for all static assets like images, JavaScript, CSS, fonts, etc ...
+
+views/
+
+Where all your layout and view Jade files will live.
+
+bin/
+
+There is a single file here, www and this is what activate the Node server.
+
+package.json
+
+Project description, scripts manager and the app manifest. Notice the following object:
+
+"scripts": {
+  "start": "node ./bin/www"
+},
+This is the code that allows you to run npm start for the app.
+
+routes/
+
+This is the directory where you will build out the RESTful routes for your app. With a base install there should be two files in there, index.js and users.js.
+
+
+
